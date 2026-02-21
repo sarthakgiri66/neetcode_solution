@@ -32,3 +32,6 @@ func main() {
 	fmt.Println(lengthOfLastWord("   fly me   "))          // Output: 2
 	fmt.Println(lengthOfLastWord("luffy is still joyboy")) // Output: 6
 }
+
+
+#The previous solution is slightly more efficient in practice — it scans from the right and stops as soon as it counts the last word. This solution always reads the entire string even if the last word is at the very end.
