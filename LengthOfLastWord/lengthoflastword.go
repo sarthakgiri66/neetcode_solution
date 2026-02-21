@@ -20,10 +20,10 @@ func lengthOfLastWord(inp string) int {
   }
 
   if letterCount > 0 {
-    lastWordCount = letterCount
+    lastWordLen = letterCount
   }
 
-  return LastWordLen
+  return lastWordLen
 }
 
 
